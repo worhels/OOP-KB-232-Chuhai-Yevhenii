@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Task10 {
 
     public static int max(int[] array) {
@@ -13,7 +15,15 @@ public class Task10 {
     }
 
     public static void main(String[] args) {
-        int[] array = {3, 7, 2, 9, 4};
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] array = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            array[i] = sc.nextInt();
+        }
+
         System.out.println(max(array));
     }
 }
