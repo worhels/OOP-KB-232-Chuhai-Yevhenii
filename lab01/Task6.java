@@ -18,8 +18,8 @@ public class Task6 {
         }
 
         double totalWithTips = bill * 1.10;
-        double perFriend = totalWithTips / friends;
+        int perFriend = (int) (totalWithTips / friends);
 
-        System.out.printf("%.2f%n", perFriend);
+        System.out.println(perFriend);
     }
 }

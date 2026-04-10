@@ -13,7 +13,7 @@ public class Task4 {
         }
 
         if (count == 0) {
-            System.out.println("No one to greet");
+            System.out.println("No strangers");
             return;
         }
 
