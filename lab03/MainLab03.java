@@ -1,4 +1,4 @@
-public class Main {
+public class MainLab03 {
     public static void main(String[] args) {
 
         // --- UserStory без зависимостей ---
