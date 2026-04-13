@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Segment s1 = new Segment(new Point(0, 0), new Point(4, 4));
-        Segment s2 = new Segment(new Point(0, 4), new Point(4, 0));
+        Triangle triangle = new Triangle(
+                new Point(0, 0),
+                new Point(6, 0),
+                new Point(0, 6)
+        );
 
-        System.out.println("Довжина: " + s1.length());
-        System.out.println("Середина: " + s1.middle());
-        System.out.println("Точка перетину: " + s1.intersection(s2));
+        System.out.println("Площа: " + triangle.area());
+        System.out.println("Центроїд: " + triangle.centroid());
     }
 }
